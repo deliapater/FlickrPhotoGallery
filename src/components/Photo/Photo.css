@@ -1,12 +1,10 @@
 .Photo {
   padding: 1rem 1.5rem;
-
-  border: 1px solid lightslategray;
+  border: 1px solid silver;
   border-radius: 12px;
 }
 
 .Photo figure {
-  /* Reduce load in layout flicker */
   min-height: 100px;
 }
 
@@ -17,7 +15,6 @@
 
 .Photo__Title {
   font-size: 1.2rem;
-
   text-overflow: ellipsis;
   word-wrap: break-word;
   overflow: hidden;
@@ -26,7 +23,6 @@
 
 .Photo__Author {
   display: block;
-  
   word-break: break-all;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -35,7 +31,6 @@
 
 .Photo__Description {
   margin-bottom: 1rem;
-
   text-overflow: ellipsis;
   overflow: hidden;
 }
@@ -49,10 +44,10 @@
   display: inline-block;
   padding: 2px 5px;
   margin-bottom: .1rem;
-
-  background: lightskyblue;
+  background: silver;
   border-radius: 8px;
   word-break: break-all;
+  color: black;
 }
 
 .Photo__Tag:not(:last-child) {
