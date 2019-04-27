@@ -1,16 +1,11 @@
 import React from 'react';
-
 import './Photo.css';
 
-/**
- * Displays one photo card with title, author, description and tags.
- * Links are expected to be already constructed on the photo prop.
- */
 function Photo ({ photo }) {
   return (
     <div className="Photo">
       <figure>
-        <img src={photo.photoURL || 'https://placekitten.com/480/360'} alt="Meow"/>
+        <img src={photo.photoURL || 'https://placekitten.com/480/222'} alt="Meow"/>
       </figure>
 
       <div className="Photo__Headline">

@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-
 import './App.css';
-
 // TODO: configure absolute paths from src/
 import { fetchPhotos } from './../../api/api';
-
 import Photo from '../Photo/Photo';
 import Loading from '../common/Loading/Loading';
 import Search from '../common/Search/Search';
@@ -18,7 +15,7 @@ class App extends Component {
 
     isLoadingPhotos: true
   }
-  
+
   componentDidMount () {
     this.searchPhotos();
   }
@@ -44,7 +41,7 @@ class App extends Component {
         });
         alert('Could not retrieve photos. Please check your credentials.');
       }
-    }) 
+    })
   }
 
   renderPhotos () {
@@ -65,7 +62,7 @@ class App extends Component {
           <div className="hero-body">
             <div className="container">
               <h1 className="title">
-                Flickr Photo Stream
+                Flickr Photo Gallery
               </h1>
             </div>
           </div>
@@ -87,7 +84,7 @@ class App extends Component {
             </div>
           </div>
         </section>
-        
+
       </div>
     );
   }
