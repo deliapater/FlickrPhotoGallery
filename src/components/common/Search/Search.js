@@ -1,6 +1,5 @@
 import React from 'react';
 import debounce from 'lodash.debounce';
-
 import './Search.css';
 
 /**
@@ -23,7 +22,7 @@ class Search extends React.PureComponent {
         <p>Search by tags:</p>
         <div className="field">
           <div className="control">
-            <input className="input Search__input" type="text" ref={this.inputRef} onChange={this.triggerSearch} placeholder="cats,dogs,bats"/>
+            <input className="input Search__input" type="text" ref={this.inputRef} onChange={this.triggerSearch} placeholder="dogs,books,cakes"/>
           </div>
         </div>
       </div>
