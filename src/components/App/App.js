@@ -58,7 +58,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <header className="hero is-primary">
+        <header className="hero is-light">
           <div className="hero-body">
             <div className="container">
               <h1 className="title">
