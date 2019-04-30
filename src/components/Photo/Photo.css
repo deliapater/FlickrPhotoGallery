@@ -54,3 +54,7 @@
 .Photo__Tag:not(:last-child) {
   margin-right: .25rem;
 }
+
+img.expand {
+  width: 70em;
+}

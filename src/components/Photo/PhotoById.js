@@ -21,7 +21,7 @@ class PhotoById extends Component {
     return (
       <div className="Photo">
         <figure>
-          <img src={this.state.photo.photoURL} />
+          <img src={this.state.photo.photoURL} className="expand" alt="picture"  />
         </figure>
 
         <div className="Photo__Headline">
