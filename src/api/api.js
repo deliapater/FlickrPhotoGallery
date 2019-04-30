@@ -59,11 +59,11 @@ export function fetchPhotos (tags = '') {
     method,
     tags
   };
-  
+
   return axios
     .get(API_URL, { params })
     .then(({ data }) => {
-      
+
       if (process.env.NODE_ENV === 'development') {
         console.log('Fetched photos ', data);
       }
@@ -82,6 +82,7 @@ export function fetchPhotos (tags = '') {
           item.description._content = striptags(item.description._content);
           item.photoURL = getPhotoURL(item);
           item.authorURL = getAuthorURL(item);
+          item.id = item.id;
           return item;
         });
     });

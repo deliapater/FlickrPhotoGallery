@@ -4,8 +4,11 @@ import ReactDOM from 'react-dom';
 import '../node_modules/bulma/css/bulma.min.css';
 import './index.css';
 
-import App from './components/App/App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import routes from './routes';
+import { Router, browserHistory } from 'react-router';
+
+ReactDOM.render(<Router history={browserHistory} routes = {routes} />, document.getElementById('root'));
+
 registerServiceWorker();
