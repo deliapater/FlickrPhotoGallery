@@ -1,6 +1,6 @@
 # Photo Gallery
 
-This project was bootstrapped with React using [Flickr API](https://www.flickr.com/) to allow user searching for photos with specific words.
+This project was bootstrapped with React using [Flickr API](https://www.flickr.com/) to allow users searching for photos with specific words.
 
 The app shows the results of the search in an infinite scroll list where each cell contains a photo, title, author name and tags.
 
