@@ -1,8 +1,12 @@
 # Photo Gallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) to allow user searching for photos with specific words.
 
-Consumes the public Flickr API and displays some photos, with a facility to search by tags.
+The app shows the results of the search in an infinite scroll list where each cell contains a photo, title, author name and tags.
+
+When tapping on a cell the user of the app can see the full screen photo and its
+details.
+
 
 ## Set up
 
