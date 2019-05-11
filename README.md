@@ -9,8 +9,10 @@ details.
 
 ## Screen Grabs
 
+### List
 <img width="1344" alt="Screenshot 2019-05-11 at 22 01 57" src="https://user-images.githubusercontent.com/45568630/57574895-aa8f0100-7438-11e9-9b71-8520f49ae3c4.png">
 
+### Full Screen
 <img width="960" alt="Screenshot 2019-05-11 at 22 02 15" src="https://user-images.githubusercontent.com/45568630/57574904-b8dd1d00-7438-11e9-9685-cf1430d6489a.png">
 
 
